@@ -6,13 +6,13 @@
 /*   By: clacaill <clacaill@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/07 16:01:31 by clacaill          #+#    #+#             */
-/*   Updated: 2022/11/07 16:52:46 by clacaill         ###   ########.fr       */
+/*   Updated: 2022/11/07 18:09:35 by clacaill         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-char	*strdup(const char *s)
+char	*ft_strdup(const char *s)
 {
 	int		i;
 	char	*new;

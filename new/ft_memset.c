@@ -6,7 +6,7 @@
 /*   By: clacaill <clacaill@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/06 15:12:35 by clacaill          #+#    #+#             */
-/*   Updated: 2022/11/06 19:33:57 by clacaill         ###   ########.fr       */
+/*   Updated: 2022/11/07 17:17:08 by clacaill         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,7 @@
 
 void	*ft_memset(void *s, int c, size_t n)
 {
-	int		i;
+	size_t		i;
 	char	*sc;
 
 	i = 0;

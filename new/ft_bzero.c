@@ -6,7 +6,7 @@
 /*   By: clacaill <clacaill@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/06 15:32:23 by clacaill          #+#    #+#             */
-/*   Updated: 2022/11/06 15:42:17 by clacaill         ###   ########.fr       */
+/*   Updated: 2022/11/07 17:10:41 by clacaill         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,11 +14,12 @@
 
 void	ft_bzero(void *s, size_t n)
 {
-	int		i;
+	size_t		i;
 	char	*sc;
 
 	i = 0;
 	sc = s;
 	while (i < n)
 		*(sc + i++) = '\0';
+	
 }

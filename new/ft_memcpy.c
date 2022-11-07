@@ -6,15 +6,15 @@
 /*   By: clacaill <clacaill@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/06 15:45:46 by clacaill          #+#    #+#             */
-/*   Updated: 2022/11/06 19:32:48 by clacaill         ###   ########.fr       */
+/*   Updated: 2022/11/07 17:50:24 by clacaill         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-void	*memcpy(void *dest, const void *src, size_t n)
+void	*ft_memcpy(void *dest, const void *src, size_t n)
 {
-	int			i;
+	size_t			i;
 	char		*d;
 	const char	*s;
 

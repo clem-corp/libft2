@@ -6,15 +6,15 @@
 /*   By: clacaill <clacaill@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/06 16:01:46 by clacaill          #+#    #+#             */
-/*   Updated: 2022/11/06 19:33:30 by clacaill         ###   ########.fr       */
+/*   Updated: 2022/11/07 17:50:52 by clacaill         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-void	*memmove(void *dest, const void *src, size_t n)
+void	*ft_memmove(void *dest, const void *src, size_t n)
 {
-	int			i;
+	size_t		i;
 	char		*d;
 	char const	*s;
 

@@ -6,7 +6,7 @@
 /*   By: clacaill <clacaill@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/06 19:46:43 by clacaill          #+#    #+#             */
-/*   Updated: 2022/11/06 20:19:41 by clacaill         ###   ########.fr       */
+/*   Updated: 2022/11/07 18:30:31 by clacaill         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,9 +14,9 @@
 
 char	*ft_strchr(const char *s, int c)
 {
-	while (*s != c % 256 && *s)
+	while (*s != c % 256 && *s != '\0')
 		s++;
-	if (*s == '\0')
-		return ((void *)0);
-	return ((char *)s);
+	if (*s != '\0' || c == '\0')
+		return ((char *)s);
+	return ((void *)0);
 }
