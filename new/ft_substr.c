@@ -1,30 +1,33 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_strrchr.c                                       :+:      :+:    :+:   */
+/*   ft_substr.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: clacaill <clacaill@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2022/11/06 20:21:00 by clacaill          #+#    #+#             */
-/*   Updated: 2022/11/07 11:35:44 by clacaill         ###   ########.fr       */
+/*   Created: 2022/11/07 16:21:39 by clacaill          #+#    #+#             */
+/*   Updated: 2022/11/07 16:56:12 by clacaill         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-char	*ft_strrchr(const char *s, int c)
+char	*ft_substr(char const *s, unsigned int start, size_t len)
 {
-	size_t	len;
-	int		i;
+	unsigned int	size;
+	int				i;
+	char			*cpy;
 
+	size = ft_strlen(s);
 	i = 0;
-	len = ft_strlen(s);
-	while (--len >= 0)
+	cpy = malloc(len * sizeof(char *));
+	if (!cpy)
+		return (NULL);
+	while (start + i < ft_strlen(s) && s[start + i] && i < len)
 	{
-		if (s[len] == c % 256)
-		{
-			return ((char *)&s[len]);
-		}
+		cpy[i] = s[start + i];
+		i++;
 	}
-	return ((void *)0);
+	cpy[i] = '\0';
+	return (cpy);
 }
