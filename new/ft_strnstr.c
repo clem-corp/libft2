@@ -6,7 +6,7 @@
 /*   By: clacaill <clacaill@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/07 13:43:59 by clacaill          #+#    #+#             */
-/*   Updated: 2022/11/07 18:02:48 by clacaill         ###   ########.fr       */
+/*   Updated: 2022/11/09 18:04:25 by clacaill         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,7 +15,7 @@
 char	*ft_strnstr(const char *big, const char *little, size_t len)
 {
 	size_t	i;
-	int	j;
+	int		j;
 
 	i = 0;
 	j = 0;

@@ -6,7 +6,7 @@
 /*   By: clacaill <clacaill@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/06 15:45:46 by clacaill          #+#    #+#             */
-/*   Updated: 2022/11/07 17:50:24 by clacaill         ###   ########.fr       */
+/*   Updated: 2022/11/09 18:02:47 by clacaill         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,7 @@
 
 void	*ft_memcpy(void *dest, const void *src, size_t n)
 {
-	size_t			i;
+	size_t		i;
 	char		*d;
 	const char	*s;
 

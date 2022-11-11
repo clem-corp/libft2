@@ -6,7 +6,7 @@
 #    By: clacaill <clacaill@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/11/02 10:06:57 by clacaill          #+#    #+#              #
-#    Updated: 2022/11/07 18:07:59 by clacaill         ###   ########.fr        #
+#    Updated: 2022/11/11 14:32:38 by clacaill         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -35,9 +35,18 @@ LIBFT		= ft_isalpha.c \
 		ft_calloc.c\
 		ft_strdup.c\
 		ft_substr.c\
+		ft_strjoin.c\
+		ft_strtrim.c\
+		ft_split.c\
+		ft_itoa.c\
+		ft_strmapi.c\
+		ft_striteri.c\
+		ft_putchar_fd.c\
+		ft_putstr_fd.c\
+		ft_putendl_fd.c\
+		ft_putnbr_fd.c
 
 OBJS		= ${LIBFT:.c=.o}
-BONUS_O		= ${BONUS_C:.c=.o}
 CC			= gcc
 CFLAGS		= -Wall -Wextra -Werror
 RM			= rm -rf
@@ -52,7 +61,6 @@ all:    ${NAME}
 
 clean:
 		${RM} ${OBJS}
-		${RM} ${BONUS_O}
 
 fclean:    clean
 		${RM} ${NAME}
