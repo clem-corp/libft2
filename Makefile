@@ -6,7 +6,7 @@
 #    By: clacaill <clacaill@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/11/02 10:06:57 by clacaill          #+#    #+#              #
-#    Updated: 2022/11/11 14:32:38 by clacaill         ###   ########.fr        #
+#    Updated: 2023/02/16 00:50:06 by clacaill         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -44,7 +44,11 @@ LIBFT		= ft_isalpha.c \
 		ft_putchar_fd.c\
 		ft_putstr_fd.c\
 		ft_putendl_fd.c\
-		ft_putnbr_fd.c
+		ft_putnbr_fd.c\
+		utils_printf/printhex.c\
+		utils_printf/printnbr.c\
+		utils_printf/printxt.c\
+		ft_printf.c
 
 OBJS		= ${LIBFT:.c=.o}
 CC			= gcc
