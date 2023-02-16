@@ -6,7 +6,7 @@
 /*   By: clacaill <clacaill@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/06 13:20:55 by clacaill          #+#    #+#             */
-/*   Updated: 2023/02/16 00:48:32 by clacaill         ###   ########.fr       */
+/*   Updated: 2023/02/16 02:10:03 by clacaill         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,6 +16,7 @@
 # include <unistd.h>
 # include <stdlib.h>
 # include <stdio.h>
+# include <stdarg.h>
 # include <stdint.h>
 # include <limits.h>
 # include <ctype.h>

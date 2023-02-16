@@ -6,11 +6,11 @@
 /*   By: clacaill <clacaill@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/08 07:51:59 by clacaill          #+#    #+#             */
-/*   Updated: 2022/12/08 07:52:00 by clacaill         ###   ########.fr       */
+/*   Updated: 2023/02/16 02:05:03 by clacaill         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../ft_printf.h"
+#include "../libft.h"
 
 // char
 void	ft_char_prnt(va_list argp, int *len)

@@ -6,11 +6,11 @@
 /*   By: clacaill <clacaill@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/02/16 00:39:28 by clacaill          #+#    #+#             */
-/*   Updated: 2023/02/16 00:47:52 by clacaill         ###   ########.fr       */
+/*   Updated: 2023/02/16 02:10:45 by clacaill         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "ft_printf.h"
+#include "libft.h"
 
 int	ft_printf(const char *format, ...)
 {
