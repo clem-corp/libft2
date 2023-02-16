@@ -6,13 +6,13 @@
 /*   By: clacaill <clacaill@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/07 14:23:01 by clacaill          #+#    #+#             */
-/*   Updated: 2022/11/07 20:09:02 by clacaill         ###   ########.fr       */
+/*   Updated: 2023/02/16 06:27:07 by clacaill         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-int	ft_atoi(const char *nptr)
+long int	ft_atoi(const char *nptr)
 {
 	long int	i;
 	long int	nb;
