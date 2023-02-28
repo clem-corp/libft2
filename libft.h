@@ -6,7 +6,7 @@
 /*   By: clacaill <clacaill@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/06 13:20:55 by clacaill          #+#    #+#             */
-/*   Updated: 2023/02/16 06:28:18 by clacaill         ###   ########.fr       */
+/*   Updated: 2023/02/28 16:54:42 by clacaill         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -58,7 +58,6 @@ void		ft_putstr_fd(char *s, int fd);
 void		ft_putendl_fd(char *s, int fd);
 void		ft_putnbr_fd(int n, int fd);
 
-
 // printf
 // # define PRINTF_VALID_FORMATS	"cspdiuxX\%"
 # define HEXALOWER	"0123456789abcdef"
@@ -66,15 +65,15 @@ void		ft_putnbr_fd(int n, int fd);
 
 // Function
 
-int		ft_printf(const char *format, ...);
-int		choose_print(const char *format, va_list argp, int *len);
-void	ft_char_prnt(va_list argp, int *len);
-void	ft_str_prnt(va_list argp, int *len);
-void	ft_hex_prnt(va_list argp, int *len);
-void	ft_hexa_prnt(va_list argp, int *len, char c);
-void	ft_puthex(unsigned long n, char *base, int *len);
-void	ft_nbr_sign_prnt(va_list argp, int *len);
-void	ft_nbr_prnt(long nb, int *len);
-void	ft_usi_prtn(va_list argp, int *len);
+int			ft_printf(const char *format, ...);
+int			choose_print(const char *format, va_list argp, int *len);
+void		ft_char_prnt(va_list argp, int *len);
+void		ft_str_prnt(va_list argp, int *len);
+void		ft_hex_prnt(va_list argp, int *len);
+void		ft_hexa_prnt(va_list argp, int *len, char c);
+void		ft_puthex(unsigned long n, char *base, int *len);
+void		ft_nbr_sign_prnt(va_list argp, int *len);
+void		ft_nbr_prnt(long nb, int *len);
+void		ft_usi_prtn(va_list argp, int *len);
 
 #endif
